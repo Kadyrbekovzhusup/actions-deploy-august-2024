@@ -34,4 +34,4 @@ jobs:
 
 
     - name: Deploy to GKE 
-      run: helm install flask ./flask
+      run: helm upgrade --install flask ./flask --set tag=3.0.0 
