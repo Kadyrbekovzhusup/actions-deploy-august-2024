@@ -1,0 +1,3 @@
+image: kadyrbekovzhusup11/flask-app
+tag: "2.0.0"
+type: LoadBalancer
